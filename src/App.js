@@ -14,12 +14,12 @@ export default function App() {
     <BrowserRouter>
     <nav>
       <ul>
+        <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/academics">Academics</Link></li>
         <li><Link to="/professional">Professional</Link></li>
         <li><Link to="/certification">Certification</Link></li>
         <li><Link to="project">Project</Link></li>
-        <li><Link>Download Resume</Link></li>
         <li><Link to="/contact">Contact</Link></li>
       </ul>
     </nav>
